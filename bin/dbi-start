@@ -1,0 +1,12 @@
+#!/usr/bin/env node
+
+var program = require('commander');
+var run = require('../');
+program
+  .usage('[options]')
+  .option('-d, --daemonize', 'Run with pm2. Add --foreground if you want to stay out from the daemon')
+  .option('-f, --foreground', 'Run with pm2 as a foreground app, will be ignored if the pm2 daemon is running')
+  .option('-p, --port <n>', 'Set the onnection port')
+  .parse(process.argv);
+
+run(program);

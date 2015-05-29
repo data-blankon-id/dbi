@@ -1,0 +1,8 @@
+#!/usr/bin/env node
+
+var program = require('commander');
+var run = require('../lib/add');
+program
+  .parse(process.argv);
+
+run(program);
