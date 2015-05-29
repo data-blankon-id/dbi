@@ -1,5 +1,10 @@
 # dbi
 
+[[ Experimental ]]
+
+The `dbi` cli app is intended to be installed as a global app, using `npm install -g dbi`.
+
+To test it from a cloned repo, please run it from the `bin` dir, i.e. `$ bin/dbi --help`.
 
 Add the weather API from npm
 
