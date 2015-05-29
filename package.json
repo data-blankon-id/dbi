@@ -1,4 +1,34 @@
 {
+  "name": "dbi",
+  "bin": {
+    "dbi": "bin/dbi"
+  },
+  "description": "dbi: A data.blankon.id cli app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/data-blankon-id/dbi.git"
+  },
+  "keywords": [
+    "dbi",
+    "data",
+    "blankon",
+    "id",
+    "cli",
+    "api",
+    "cached"
+  ],
+  "author": "Dhi Aurrahman <diorahman@rockybars.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/data-blankon-id/dbi/issues"
+  },
+  "homepage": "https://github.com/data-blankon-id/dbi#readme",
   "dependencies": {
     "commander": "^2.8.1",
     "hapi": "^8.5.3",
