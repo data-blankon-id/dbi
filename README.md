@@ -18,6 +18,8 @@ Start the server
 $ dbi start
 ```
 
+Then open `http://localhost:3000`, you'll be redirected to a swagger page.
+
 Use pm2 
 
 ```
@@ -29,8 +31,6 @@ Not satisfy with the 3000 as the default port?
 ```
 $ dbi start -p 8000
 ```
-
-Then open `http://localhost:3000`, you'll be redirected to a swagger page.
 
 ## license 
 
