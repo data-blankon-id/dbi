@@ -31,6 +31,8 @@
   "homepage": "https://github.com/data-blankon-id/dbi#readme",
   "dependencies": {
     "commander": "^2.8.1",
+    "good": "^6.1.4",
+    "good-winston": "^1.0.0",
     "hapi": "^8.5.3",
     "hapi-swaggered": "^2.2.0",
     "hapi-swaggered-ui": "^1.3.1",
@@ -38,6 +40,8 @@
     "joi": "^6.4.3",
     "minimist": "^1.1.1",
     "npm": "^2.11.0",
-    "pm2": "^0.12.15"
+    "pm2": "^0.12.15",
+    "winston": "^1.0.0",
+    "winston-redis": "^0.3.0"
   }
 }
